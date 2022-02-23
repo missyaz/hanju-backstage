@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.teleplay.hanju.common.mapper.VideoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.teleplay.hanju.common.entity.Video">
+        <id column="id" property="id" />
+        <result column="teleplay_name" property="teleplayName" />
+        <result column="category" property="category" />
+        <result column="play_url" property="playUrl" />
+        <result column="no" property="no" />
+    </resultMap>
+
+</mapper>

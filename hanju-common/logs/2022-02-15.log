@@ -1,0 +1,40 @@
+2022-02-15 14:55:17.991 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Starting HanjuCommonApplicationTests on admin with PID 16660 (started by 王德发 in D:\Java\Project\hanju\hanju-common)
+2022-02-15 14:55:17.993 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - The following profiles are active: common
+2022-02-15 14:55:21.031 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:55:21.446 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Started HanjuCommonApplicationTests in 3.928 seconds (JVM running for 5.369)
+2022-02-15 14:55:21.836 [main] INFO  c.teleplay.hanju.common.config.MyMetaObjectHandler - start update .....
+2022-02-15 14:55:21.880 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-15 14:55:22.331 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-15 14:55:22.374 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:55:22.375 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-15 14:55:22.377 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-15 14:55:56.433 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Starting HanjuCommonApplicationTests on admin with PID 20100 (started by 王德发 in D:\Java\Project\hanju\hanju-common)
+2022-02-15 14:55:56.435 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - The following profiles are active: common
+2022-02-15 14:56:00.455 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:56:01.022 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Started HanjuCommonApplicationTests in 5.142 seconds (JVM running for 6.238)
+2022-02-15 14:56:01.496 [main] INFO  c.teleplay.hanju.common.config.MyMetaObjectHandler - start insert .....
+2022-02-15 14:56:01.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-15 14:56:01.983 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-15 14:56:02.117 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:56:02.118 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-15 14:56:02.131 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-15 14:58:26.405 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Starting HanjuCommonApplicationTests on admin with PID 9192 (started by 王德发 in D:\Java\Project\hanju\hanju-common)
+2022-02-15 14:58:26.406 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - The following profiles are active: common
+2022-02-15 14:58:29.735 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:58:30.136 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Started HanjuCommonApplicationTests in 4.2 seconds (JVM running for 5.322)
+2022-02-15 14:58:30.405 [main] INFO  c.teleplay.hanju.common.config.MyMetaObjectHandler - start insert .....
+2022-02-15 14:58:30.413 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-15 14:58:30.843 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-15 14:58:31.052 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:58:31.053 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-15 14:58:31.060 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-15 14:58:49.883 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Starting HanjuCommonApplicationTests on admin with PID 1888 (started by 王德发 in D:\Java\Project\hanju\hanju-common)
+2022-02-15 14:58:49.885 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - The following profiles are active: common
+2022-02-15 14:58:53.077 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:58:53.469 [main] INFO  c.t.hanju.common.HanjuCommonApplicationTests - Started HanjuCommonApplicationTests in 3.999 seconds (JVM running for 5.057)
+2022-02-15 14:58:53.723 [main] INFO  c.teleplay.hanju.common.config.MyMetaObjectHandler - start insert .....
+2022-02-15 14:58:53.734 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-15 14:58:54.135 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-15 14:58:54.201 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-15 14:58:54.201 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-15 14:58:54.203 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
