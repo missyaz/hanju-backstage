@@ -1,0 +1,15 @@
+2022-02-15 12:18:29.252 [restartedMain] INFO  com.teleplay.hanju.common.HanjuCommonApplication - Starting HanjuCommonApplication on admin with PID 13564 (D:\Java\Project\hanju\hanju-common\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-15 12:18:29.255 [restartedMain] INFO  com.teleplay.hanju.common.HanjuCommonApplication - The following profiles are active: common
+2022-02-15 12:18:29.311 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-15 12:18:29.311 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-15 12:18:30.166 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2022-02-15 12:18:30.173 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+2022-02-15 12:18:30.174 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-15 12:18:30.174 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-15 12:18:30.241 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-15 12:18:30.241 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 929 ms
+2022-02-15 12:18:32.031 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-15 12:18:32.235 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-15 12:18:32.257 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+2022-02-15 12:18:32.274 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+2022-02-15 12:18:32.281 [restartedMain] INFO  com.teleplay.hanju.common.HanjuCommonApplication - Started HanjuCommonApplication in 3.496 seconds (JVM running for 4.655)

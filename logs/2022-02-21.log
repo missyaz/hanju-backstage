@@ -1,0 +1,266 @@
+2022-02-21 10:55:45.279 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 16312 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 10:55:45.281 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 10:55:45.335 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 10:55:45.335 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 10:55:46.488 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 10:55:46.496 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 10:55:46.498 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 10:55:46.498 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 10:55:46.569 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 10:55:46.569 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1233 ms
+2022-02-21 10:55:48.084 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 10:55:48.339 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 10:55:48.352 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 10:55:48.376 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 10:55:48.384 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.653 seconds (JVM running for 5.088)
+2022-02-21 10:56:57.364 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 10:56:57.364 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 10:56:57.367 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-02-21 10:56:57.496 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 10:56:57.727 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 10:56:57.844 [http-nio-8774-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'crateTime' of 'class com.teleplay.hanju.common.entity.Hanju' with value 'Thu Feb 17 18:39:22 CST 2022' Cause: java.lang.IllegalArgumentException: argument type mismatch]
+2022-02-21 10:59:36.855 [http-nio-8774-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'crateTime' of 'class com.teleplay.hanju.common.entity.Hanju' with value 'Thu Feb 17 18:39:22 CST 2022' Cause: java.lang.IllegalArgumentException: argument type mismatch]
+2022-02-21 10:59:56.585 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 18988 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 10:59:56.588 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 10:59:56.645 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 10:59:56.645 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 10:59:57.545 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 10:59:57.551 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 10:59:57.551 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 10:59:57.551 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 10:59:57.610 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 10:59:57.610 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2022-02-21 10:59:59.100 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 10:59:59.290 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 10:59:59.302 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 10:59:59.322 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 10:59:59.330 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.277 seconds (JVM running for 4.558)
+2022-02-21 11:00:08.937 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:00:08.937 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:00:08.942 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-02-21 11:00:09.001 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:00:09.134 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:07:27.189 [http-nio-8774-exec-4] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1629168294; MUIDB=342FF5B406096A8D1A4BE49E07DB6B3E] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-02-21 11:11:20.123 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 15524 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:11:20.126 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:11:20.170 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:11:20.170 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:11:21.249 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:11:21.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:11:21.263 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:11:21.264 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:11:21.349 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:11:21.349 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1178 ms
+2022-02-21 11:11:23.086 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:11:23.313 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:11:23.328 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:11:23.350 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:11:23.359 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.719 seconds (JVM running for 5.154)
+2022-02-21 11:11:44.628 [http-nio-8774-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1629168294; MUIDB=342FF5B406096A8D1A4BE49E07DB6B3E] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-02-21 11:11:44.634 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:11:44.634 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:11:44.638 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-02-21 11:11:44.705 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:11:44.945 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:45:13.099 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 3628 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:45:13.101 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:45:13.165 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:45:13.165 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:45:14.191 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:45:14.198 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:45:14.199 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:45:14.199 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:45:14.266 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:45:14.266 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1100 ms
+2022-02-21 11:45:15.923 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:45:16.128 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:45:16.139 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:45:16.159 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:45:16.169 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.692 seconds (JVM running for 5.216)
+2022-02-21 11:45:43.611 [http-nio-8774-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:45:43.611 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:45:43.614 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-02-21 11:45:43.678 [http-nio-8774-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:45:43.810 [http-nio-8774-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:45:44.015 [http-nio-8774-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'isHot' in 'where clause'
+### The error may exist in com/teleplay/hanju/common/mapper/IndexMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teleplay_id,category,is_hot,crate_time,update_time  FROM t_index     WHERE (category = ? AND isHot = ?) limit 10
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'isHot' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'isHot' in 'where clause']
+2022-02-21 11:46:25.266 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 14368 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:46:25.269 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:46:25.338 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:46:25.339 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:46:26.299 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:46:26.305 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:46:26.306 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:46:26.306 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:46:26.359 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:46:26.359 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1020 ms
+2022-02-21 11:46:27.802 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:46:28.072 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:46:28.083 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:46:28.102 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:46:28.110 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.448 seconds (JVM running for 4.634)
+2022-02-21 11:46:31.444 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:46:31.444 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:46:31.448 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-02-21 11:46:31.511 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:46:31.650 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:46:31.738 [http-nio-8774-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'crateTime' of 'class com.teleplay.hanju.common.entity.Index' with value 'Thu Feb 17 19:01:43 CST 2022' Cause: java.lang.IllegalArgumentException: argument type mismatch]
+2022-02-21 11:48:21.586 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 18584 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:48:21.589 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:48:21.651 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:48:21.651 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:48:22.784 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:48:22.790 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:22.791 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:48:22.791 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:48:22.859 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:48:22.860 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1209 ms
+2022-02-21 11:48:24.350 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:48:24.529 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:48:24.542 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:24.561 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:48:24.569 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.454 seconds (JVM running for 4.588)
+2022-02-21 11:48:36.642 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 20436 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:48:36.645 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:48:36.701 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:48:36.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:48:37.779 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:48:37.786 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:37.787 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:48:37.787 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:48:37.869 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:48:37.869 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2022-02-21 11:48:39.755 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:48:39.975 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:48:39.992 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:40.029 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:48:40.039 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.848 seconds (JVM running for 4.981)
+2022-02-21 11:48:56.532 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 3112 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:48:56.535 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:48:56.594 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:48:56.594 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:48:57.479 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:48:57.485 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:57.486 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:48:57.486 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:48:57.539 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:48:57.540 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 944 ms
+2022-02-21 11:48:59.059 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:48:59.261 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:48:59.275 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:48:59.294 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:48:59.302 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.274 seconds (JVM running for 4.505)
+2022-02-21 11:49:03.786 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:49:03.787 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:49:03.791 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-02-21 11:49:03.855 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:49:03.990 [http-nio-8774-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:49:04.093 [http-nio-8774-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2022-02-21 11:54:08.548 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 11860 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 11:54:08.551 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 11:54:08.612 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 11:54:08.612 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 11:54:09.742 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 11:54:09.749 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:54:09.749 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 11:54:09.749 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 11:54:09.812 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 11:54:09.813 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1200 ms
+2022-02-21 11:54:11.688 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 11:54:11.891 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 11:54:11.903 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 11:54:11.923 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 11:54:11.931 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 3.929 seconds (JVM running for 5.112)
+2022-02-21 11:54:35.628 [http-nio-8774-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 11:54:35.628 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 11:54:35.633 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2022-02-21 11:54:35.695 [http-nio-8774-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 11:54:35.834 [http-nio-8774-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-21 11:56:11.137 [http-nio-8774-exec-7] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1629168294; MUIDB=342FF5B406096A8D1A4BE49E07DB6B3E] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-02-21 11:57:46.433 [http-nio-8774-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-02-21 11:58:32.888 [http-nio-8774-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-02-21 13:17:53.453 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:17:53.453 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-21 13:17:53.456 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-21 13:17:53.604 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 11860 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 13:17:53.604 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 13:17:53.971 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 13:17:53.971 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:17:53.971 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 13:17:53.971 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 13:17:53.996 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 13:17:53.996 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 389 ms
+2022-02-21 13:17:54.819 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:17:54.870 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 13:17:54.878 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:17:54.885 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 13:17:54.889 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 1.34 seconds (JVM running for 5028.07)
+2022-02-21 13:17:54.891 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-21 13:18:33.628 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:18:33.787 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 11860 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 13:18:33.788 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 13:18:34.050 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 13:18:34.051 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:18:34.051 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 13:18:34.052 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 13:18:34.065 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 13:18:34.065 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 274 ms
+2022-02-21 13:18:34.907 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:18:34.987 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 13:18:34.997 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:18:35.004 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 13:18:35.009 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 1.267 seconds (JVM running for 5068.19)
+2022-02-21 13:18:35.011 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-21 13:20:48.942 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:20:49.140 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 11860 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 13:20:49.140 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 13:20:49.448 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 13:20:49.449 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:20:49.449 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 13:20:49.449 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 13:20:49.465 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 13:20:49.465 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 320 ms
+2022-02-21 13:20:50.282 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:20:50.350 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 13:20:50.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:20:50.364 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 13:20:50.369 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 1.274 seconds (JVM running for 5203.55)
+2022-02-21 13:20:50.370 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-21 13:20:51.499 [http-nio-8774-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 13:20:51.500 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 13:20:51.505 [http-nio-8774-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-02-21 13:20:51.512 [http-nio-8774-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-02-21 13:20:51.522 [http-nio-8774-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-02-21 13:23:00.763 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Starting FrontApplication on admin with PID 19960 (D:\Java\Project\hanju\hanju-front\target\classes started by 王德发 in D:\Java\Project\hanju)
+2022-02-21 13:23:00.767 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - The following profiles are active: common
+2022-02-21 13:23:00.830 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-21 13:23:00.830 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-21 13:23:01.957 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8774 (http)
+2022-02-21 13:23:01.964 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:23:01.965 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-21 13:23:01.966 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-02-21 13:23:02.043 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-21 13:23:02.043 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1213 ms
+2022-02-21 13:23:03.751 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 13:23:03.965 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-21 13:23:03.978 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8774"]
+2022-02-21 13:23:03.999 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8774 (http) with context path ''
+2022-02-21 13:23:04.008 [restartedMain] INFO  com.teleplay.hanju.front.FrontApplication - Started FrontApplication in 4.106 seconds (JVM running for 5.724)
+2022-02-21 13:23:12.246 [http-nio-8774-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1629168294; MUIDB=342FF5B406096A8D1A4BE49E07DB6B3E] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-02-21 13:23:12.246 [http-nio-8774-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1629168294; MUIDB=342FF5B406096A8D1A4BE49E07DB6B3E] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-02-21 13:23:12.253 [http-nio-8774-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 13:23:12.253 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-21 13:23:12.260 [http-nio-8774-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-02-21 13:23:12.366 [http-nio-8774-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-21 13:23:12.620 [http-nio-8774-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

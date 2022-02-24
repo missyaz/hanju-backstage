@@ -1,0 +1,10 @@
+2022-02-21 10:50:48.077 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - Starting FrontApplicationTests on admin with PID 9012 (started by 王德发 in D:\Java\Project\hanju\hanju-front)
+2022-02-21 10:50:48.079 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - The following profiles are active: common
+2022-02-21 10:50:52.351 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 10:50:52.880 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - Started FrontApplicationTests in 5.41 seconds (JVM running for 7.536)
+2022-02-21 10:50:53.435 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-21 10:51:12.839 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - Starting FrontApplicationTests on admin with PID 24808 (started by 王德发 in D:\Java\Project\hanju\hanju-front)
+2022-02-21 10:51:12.842 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - The following profiles are active: common
+2022-02-21 10:51:16.641 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-21 10:51:17.027 [main] INFO  com.teleplay.hanju.front.FrontApplicationTests - Started FrontApplicationTests in 4.668 seconds (JVM running for 5.854)
+2022-02-21 10:51:17.295 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
